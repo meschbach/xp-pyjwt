@@ -2,7 +2,9 @@
 
 ## Example Encoding
 
-`python encode.py some-secret audience 1`
+```bash
+$ python encode.py some-secret audience 1
+```
 
 Will produce:
 
@@ -12,7 +14,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsInN1YiI6IjEifQ.17br
 
 ## Example Decoding
 
-`python decode.py some-secret audience eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsInN1YiI6IjEifQ.17brM7M4qT_FU93vEzcUyTS72iQhiwPf_HV8KETKun0`
+```bash
+$ python decode.py some-secret audience eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdWRpZW5jZSIsInN1YiI6IjEifQ.17brM7M4qT_FU93vEzcUyTS72iQhiwPf_HV8KETKun0
+```
 
 Will produce:
 
